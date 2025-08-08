@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="Data Analysis Dashboard", layout="wide")
+st.set_page_config(page_title="Bottleshop Dashboard", layout="wide")
 
 # Use logo from GitHub raw URL
 LOGO_URL = "https://raw.githubusercontent.com/Emmanuelzux/data-analysis-tool/main/bottleshop_dashboard/assets/logo.png"
