@@ -5,6 +5,9 @@ import plotly.express as px
 
 st.set_page_config(page_title="Data Analysis Dashboard", layout="wide")
 
+# Use logo from GitHub raw URL
+LOGO_URL = "https://raw.githubusercontent.com/Emmanuelzux/data-analysis-tool/main/bottleshop_dashboard/assets/logo.png"
+
 # Sidebar navigation
 with st.sidebar:
     st.image("https://upload.wikimedia.org/wikipedia/commons/3/37/Generic_file_icon.svg", width=100)
