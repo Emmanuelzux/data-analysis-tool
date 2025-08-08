@@ -10,7 +10,7 @@ LOGO_URL = "https://raw.githubusercontent.com/Emmanuelzux/data-analysis-tool/mai
 
 # Sidebar navigation
 with st.sidebar:
-    st.image("assets/logo.png", width=150)
+    st.image("https://raw.githubusercontent.com/Emmanuelzux/data-analysis-tool/main/bottleshop_dashboard/assets/logo.png", width=150)
     st.title("Bottleshop Dashboard")
     page = st.radio("Navigation", ["📁 Upload", "📊 Analyze", "📤 Export"])
 
