@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="Local Data Analysis Tool", layout="wide")
-st.title("📊 Local Data Analysis Tool")
+st.set_page_config(page_title="ZUX Data Analysis Tool", layout="wide")
+st.title("📊 ZUX Data Analysis Tool")
 
 uploaded_file = st.file_uploader("Upload your Excel or CSV file", type=["csv", "xlsx"])
 
@@ -41,5 +41,6 @@ if uploaded_file:
     st.download_button("Download filtered data as CSV", df.to_csv(index=False), "filtered_data.csv", "text/csv")
 else:
     st.info("Upload a file to begin.")
+
 
 
