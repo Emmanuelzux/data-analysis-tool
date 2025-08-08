@@ -10,8 +10,8 @@ LOGO_URL = "https://raw.githubusercontent.com/Emmanuelzux/data-analysis-tool/mai
 
 # Sidebar navigation
 with st.sidebar:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/3/37/Generic_file_icon.svg", width=100)
-    st.title("Data Analysis Tool")
+   st.image("assets/logo.png", width=150)
+    st.title("Bottleshop Dashboard")
     page = st.radio("Navigation", ["📁 Upload", "📊 Analyze", "📤 Export"])
 
 @st.cache_data
